@@ -1,4 +1,4 @@
-let GOOGLE_API_KEY = 'AIzaSyAlBBOmgBEiWdIry_zOfwm6Zyx7zSjRr-k';
+let GOOGLE_API_KEY = 'YOUR GOOGLE API KEY';
 
 // BIG ENDIAN TO LITTLE ENDIAN
 function rev(v) {

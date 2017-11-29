@@ -115,6 +115,15 @@ function main(params, callback){
 
                 return callback(null, result);
             }
+            
+            let payload = {
+              "macs": [mac], //2 o una
+              "lat": res.location.lat,
+              "lng": res.location.lng,
+              "accuracy": res.accuracy,  //optional
+              "source": "Google API" //optional
+            };
+            thethingsAPI.submitGeoMAC(params.thingToken, payload, callback);
 
             result = result.concat([
               	{

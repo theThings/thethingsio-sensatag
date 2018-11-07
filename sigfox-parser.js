@@ -1,3 +1,7 @@
+/*
+Compatible with Sensatag v1 and v1.5
+*/
+
 let GOOGLE_API_KEY = 'YOUR GOOGLE API KEY';
 
 let maxBattery = 3.6;
